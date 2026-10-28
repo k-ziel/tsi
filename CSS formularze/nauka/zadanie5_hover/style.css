@@ -1,1 +1,32 @@
 /* Wpisz reguły w tym pliku. */
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.pole {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #1e4d7b;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #1e4d7b;
+    padding: 8px 16px;
+    color: #ffffff;
+    border: 0;
+}
+
+.pole:focus {
+    border-color: #c9a227;
+    outline: 2px solid #c9a227; 
+}
+
+button:hover {
+    background-color: #132f4d;
+}
