@@ -1,1 +1,6 @@
 /* Wpisz reguły w tym pliku. */
+
+main {
+    border: 2px solid #1e4d7b;
+    padding: 16px
+}

@@ -1,1 +1,13 @@
 /* Wpisz reguły w tym pliku. */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1.75rem;
+}

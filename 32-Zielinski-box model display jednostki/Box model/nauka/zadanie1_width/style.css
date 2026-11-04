@@ -1,1 +1,6 @@
 /* Wpisz reguły w tym pliku. */
+
+main {
+    width: 400px;
+    border: 2px solid #1e4d7b;
+}

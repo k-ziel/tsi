@@ -1,1 +1,8 @@
 /* Wpisz reguły w tym pliku. */
+
+.sala {
+    display: block;
+    width: 80px;
+    padding: 4px 8px;
+    border: 2px solid #1e4d7b;
+}

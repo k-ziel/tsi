@@ -1,1 +1,8 @@
 /* Wpisz reguły w tym pliku. */
+
+main {
+    width: 80%;
+    padding: 16px;
+    border: 2px solid #1e4d7b;
+    box-sizing: border-box;
+}

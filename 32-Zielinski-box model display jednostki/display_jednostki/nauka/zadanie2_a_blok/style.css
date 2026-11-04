@@ -1,1 +1,13 @@
 /* Wpisz reguły w tym pliku. */
+
+nav a {
+    display: block;
+    color: #1e4d7b;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #1e4d7b;
+}
+
+nav a:hover {
+    color: #c9a227;
+}

@@ -1,1 +1,8 @@
 /* Wpisz reguły w tym pliku. */
+
+.karta {
+    width: 320px;
+    padding: 16px;
+    border: 4px solid #1e4d7b;
+    box-sizing: border-box;
+}
