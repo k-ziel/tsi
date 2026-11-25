@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Zadanie 3: Jednostki viewportu vw i vh
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  /* TODO: box-sizing: border-box, zerowanie margin i padding */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Baza dokumentu */
+body {
+  /* TODO: tło #0f172a, tekst #f8fafc, czcionka systemowa, line-height 1.6 */
+  background-color: #0f172a;
+  color: #f8fafc;
+  line-height: 1.6;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 3. Pasek nawigacyjny */
+.pasek-gorny {
+  /* TODO: wysokość 60px, tło #1e293b, ramka dolna 1px solid #334155, padding boczny 2rem, line-height 60px */
+  height: 60px;
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+  padding: 0 2rem;
+  line-height: 60px;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: 38bdf8;
+  /* TODO: font-size 1.1rem, font-weight bold, kolor #38bdf8 */
+}
+
+/* 4. Sekcja Hero oparta o vh */
+.sekcja-hero {
+  min-height: 60vh;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+  text-align: center;
+  padding: 12vh 1rem 8vh 1rem;
+  /* TODO: min-height 60vh */
+  /* TODO: tło gradient liniowy (180deg, #1e293b 0%, #0f172a 100%) */
+  /* TODO: obramowanie dolne 2px solid #3b82f6 */
+  /* TODO: text-align center */
+  /* TODO: padding pionowy w vh (12vh 1rem 8vh 1rem) */
+}
+
+.sekcja-hero h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem
+  /* TODO: font-size 2.5rem, kolor #ffffff, margines dolny 1.5rem */
+}
+
+.opis-hero {
+  max-width: 650px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.15rem;
+  color: #94a3b8;
+  /* TODO: max-width 650px, margines 0 auto 2rem auto, font-size 1.15rem, kolor #94a3b8 */
+}
+
+.btn-glowny {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  /* TODO: inline-block, padding 0.8rem 2rem, tło #3b82f6, kolor biały, brak podkreślenia, border-radius 6px, waga bold */
+}
+
+/* 5. Sekcja z trzema kartami metryk */
+.sekcja-metryki {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+  /* TODO: max-width 960px, margines 3rem auto, padding 0 1.5rem, text-align center */
+}
+
+.karta-metryki {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  vertical-align: top;
+  /* TODO: inline-block, szerokość 30%, marginesy boczne 1.5%, tło #1e293b, ramka 1px solid #334155, border-radius 8px, padding 1.5rem 1rem, vertical-align top */
+}
+
+.karta-metryki h2 {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+.karta-metryki p {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}

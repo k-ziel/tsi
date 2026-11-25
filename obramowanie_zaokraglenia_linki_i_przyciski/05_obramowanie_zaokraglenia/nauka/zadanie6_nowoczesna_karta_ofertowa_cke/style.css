@@ -1,0 +1,39 @@
+/* KROK 1: Sformatuj .karta-ofertowa (width, margin auto, border, border-radius, box-shadow) */
+
+.karta-ofertowa {
+    width: 340px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.plan-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-weight: bolder;
+}
+
+.cena-glowna {
+    font-size: 28px;
+    color: #0f172a;
+    font-weight: bold;
+}
+
+.btn-aktywuj {
+    display: block; width: 100%;
+    padding: 12px;
+    background-color: #0284c7;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
+}
+
+/* KROK 2: Sformatuj .plan-tag oraz .cena-glowna */
+
+/* KROK 3: Sformatuj .btn-aktywuj z zaokrągleniem i cieniem */

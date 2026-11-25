@@ -1,0 +1,28 @@
+/* KROK 1: Wspólne style dla .karta-zaokraglona */
+
+
+.karta-zaokraglona {
+    width: 320px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #0284c7;
+    background-color: white;
+}
+
+.promien-lagodny {
+    border-radius: 8px;
+}
+
+.promien-mocny {
+    border-radius: 24px;
+}
+
+.promien-asymetryczny {
+    border-radius: 30px 0 30px 0;
+}
+
+.promien-pojedynczy {
+    border-top-right-radius: 25px;
+}
+
+/* KROK 2: Ustawienia border-radius dla poszczególnych wariantów */

@@ -1,0 +1,1 @@
+// Moduł CSS - brak logiki JavaScript

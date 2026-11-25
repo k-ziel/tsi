@@ -1,0 +1,27 @@
+/* KROK 1: Zdefiniuj bazowe style .karta-cienia */
+
+.karta-cienia {
+    width: 280px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cien-subtelny {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.cien-sredni {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.cien-gleboki {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.18);
+}
+
+.cien-kolorowy {
+    box-shadow: 0 10px 20px rgba(2, 132, 199, 0.3);
+}
+
+/* KROK 2: Skonfiguruj wartości box-shadow dla 4 wariantów */

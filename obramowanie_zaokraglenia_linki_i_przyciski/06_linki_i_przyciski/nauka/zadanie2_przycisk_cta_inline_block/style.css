@@ -1,0 +1,36 @@
+/* Zadanie 2: Przycisk CTA */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  margin: 30px;
+}
+.baner-promocyjny {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 650px;
+  border: 1px solid #cbd5e1;
+}
+/* TODO: Zdefiniuj styl klasy .btn-cta oraz stany :hover i :active */
+
+.btn-cta {
+  display: inline-block;
+  padding: 14px 28px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2563eb;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-cta:hover {
+  background-color: #1d4ed8;
+  border: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-cta:active {
+  background-color: #1e40af;
+  border: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+

@@ -1,0 +1,2 @@
+// Skrypt dla zadania zadanie5_cienie_wewnetrzne_inset_oraz_wielowarstwowe
+console.log('zadanie5_cienie_wewnetrzne_inset_oraz_wielowarstwowe gotowy');

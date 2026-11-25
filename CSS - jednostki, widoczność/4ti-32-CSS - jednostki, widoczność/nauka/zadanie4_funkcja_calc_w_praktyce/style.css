@@ -1,0 +1,144 @@
+/* ==========================================================================
+   Zadanie 4: Funkcja calc() w praktyce
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  /* TODO: box-sizing: border-box, zerowanie margin i padding */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Style bazowe strony */
+body {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  /* TODO: tło #f1f5f9, tekst #1e293b, czcionka systemowa, line-height 1.5 */
+}
+
+/* 3. Kontener główny aplikacji */
+.kontener-glowny {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  /* TODO: max-width 1100px, margines pionowy 2rem i auto w poziomie, dopełnienie boczne 1.5rem */
+}
+
+/* 4. Nagłówek widoku */
+.naglowek-widoku {
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  /* TODO: tło białe, obramowanie 1px solid #cbd5e1, zaokrąglenie 8px, padding 1.5rem, margines dolny 1.5rem */
+}
+
+.naglowek-widoku h1 {
+  font-size: 1.6rem;
+  color: #0f172a;
+  margin-bottom: 0.25rem;
+}
+
+.naglowek-widoku p {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* 5. Wiersz roboczy - likwidacja przerw między kolumnami inline-block */
+.wiersz-roboczy {
+  font-size:0;
+  /* TODO: wyzeruj wielkość czcionki (font-size: 0) */
+}
+
+/* 6. Stały panel boczny */
+.panel-boczny {
+  display: inline-block;
+  width: 260px;
+  margin-right: 20px;
+  vertical-align: top;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.25rem;
+  /* TODO: inline-block, stała szerokość 260px, margines prawy 20px, vertical-align top */
+  /* TODO: przywróć font-size: 1rem, tło białe, ramka 1px solid #cbd5e1, zaokrąglenie 8px, padding 1.25rem */
+}
+
+.panel-boczny h2 {
+  font-size: 1.15rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.lista-filtrow {
+  list-style: none;
+}
+
+.lista-filtrow li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+  font-size: 0.9rem;
+}
+
+/* 7. Elastyczny obszar roboczy obliczany funkcją calc() */
+.obszar-glowny {
+  display: inline-block;
+  width: calc(100% - 280px);
+  vertical-align: top;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.25rem;
+  /* TODO: inline-block, szerokość calc(100% - 280px), vertical-align top */
+  /* TODO: przywróć font-size: 1rem, tło białe, ramka 1px solid #cbd5e1, zaokrąglenie 8px, padding 1.5rem */
+}
+
+.obszar-glowny h2 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.obszar-glowny p {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* 8. Siatka dwóch równych kart z odstępem 1rem */
+.wiersz-podwojny {
+  font-size: 0;
+  margin-top: 1rem;
+  /* TODO: wyzeruj czcionkę font-size: 0, margines górny 1rem */
+}
+
+.karta-polowkowa {
+  display: inline-block;
+  width: calc((100% - 1rem) / 2);
+  vertical-align: top;
+  font-size: 0.95rem;
+  background-color: #f8fafc;
+  border:  1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 1rem;
+  /* TODO: inline-block, szerokość calc((100% - 1rem) / 2), vertical-align top */
+  /* TODO: przywróć font-size: 0.95rem, tło #f8fafc, obramowanie 1px solid #e2e8f0, zaokrąglenie 6px, padding 1rem */
+}
+
+.karta-polowkowa:first-child {
+  margin-right: 1rem;
+  /* TODO: margines prawy 1rem */
+}
+
+.karta-polowkowa h3 {
+  font-size: 1.05rem;
+  color: #0f172a;
+  margin-bottom: 0.4rem;
+}

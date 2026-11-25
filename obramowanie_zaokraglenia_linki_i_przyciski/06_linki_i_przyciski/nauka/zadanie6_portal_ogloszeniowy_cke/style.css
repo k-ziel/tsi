@@ -1,0 +1,14 @@
+/* Zadanie 6: Standard CKE */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffbeb;
+  margin: 30px;
+}
+.ogloszenie {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  max-width: 650px;
+}
+/* TODO: Zaimplementuj .btn-aplikuj oraz .btn-zapisz zgodnie ze specyfikacją CKE */

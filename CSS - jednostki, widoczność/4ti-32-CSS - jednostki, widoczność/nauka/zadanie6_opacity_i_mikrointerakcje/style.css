@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Zadanie 6: Przezroczystość opacity i mikrointerakcje
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* TODO: box-sizing: border-box, zerowanie margin i padding */
+}
+
+/* 2. Style bazowe strony */
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  /* TODO: tło #0f172a, tekst #f8fafc, czcionka systemowa, line-height 1.5 */
+}
+
+/* 3. Kontener główny */
+.kontener {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  /* TODO: max-width 900px, margines pionowy 2.5rem i auto w poziomie, dopełnienie boczne 1.5rem */
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+/* 4. Wiersz z kartami */
+.wiersz-kart {
+  font-size: 0;
+  /* TODO: wyzeruj wielkość czcionki font-size: 0 */
+  margin-top: 1.5rem;
+}
+
+/* 5. Interaktywna karta z domyślnym przygaszeniem */
+.karta-interaktywna {
+  display: inline-block;
+  width: calc((100% - 2rem) / 3);
+  vertical-align: top;
+  font-size: 0.95rem;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-right: 1rem;
+  opacity: 0.6;
+  transition: opacity 0.25s ease-in-out;
+  /* TODO: display inline-block, szerokość calc((100% - 2rem) / 3), vertical-align top */
+  /* TODO: font-size 0.95rem, tło #1e293b, ramka 1px solid #334155, border-radius 8px, padding 1.25rem */
+  /* TODO: margines prawy 1rem, domyślna przezroczystość opacity: 0.6 */
+  /* TODO: płynne przejście transition dla opacity i border-color */
+}
+
+.karta-interaktywna:last-child {
+  /* TODO: margines prawy 0 */
+  margin-right: 0;
+}
+
+/* 6. Stan najechania na kartę */
+.karta-interaktywna:hover {
+  opacity: 1;
+  border-color: #38bdf8;
+  /* TODO: opacity: 1, ramka #38bdf8 */
+}
+
+.karta-interaktywna h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+/* 7. Pasek stanu z przezroczystością tła (rgba) */
+.stan-zlecenia {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  /* TODO: tło rgba(56, 189, 248, 0.15), tekst #38bdf8, padding 0.4rem 0.6rem, border-radius 4px, margines dolny 1rem, waga bold */
+}
+
+/* 8. Ukryty przycisk z płynnym pojawianiem */
+.btn-szczegoly {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #0284c7;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  transition: opacity 0.25 linear;
+  /* TODO: display block, text-align center, padding 0.5rem, tło #0284c7, biały tekst, brak podkreślenia, border-radius 4px, margines górny 1rem */
+  /* TODO: stan początkowy opacity: 0, przejście transition na opacity 0.25s */
+}
+
+.karta-interaktywna:hover .btn-szczegoly {
+  opacity: 1;
+  /* TODO: przy najechaniu na kartę ustaw opacity: 1 dla przycisku */
+}

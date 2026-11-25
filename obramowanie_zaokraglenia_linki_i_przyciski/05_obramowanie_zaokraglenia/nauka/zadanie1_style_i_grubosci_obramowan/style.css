@@ -1,0 +1,28 @@
+/* KROK 1: Sformatuj bazową klasę .ramka-probka */
+
+.ramka-probka {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.ramka-ciagla {
+    border: 2px solid #0284c7;
+}
+
+.ramka-kreskowana {
+    border: 2px dashed #e11d48;
+}
+
+.ramka-podwojna {
+    border: 4px double #15803d;
+}
+
+.ramka-akcent-lewy {
+    border-left: 6px solid #7c3aed;
+    background-color: #f5f3ff;
+}
+
+/* KROK 2: Ustawienia dla .ramka-ciagla, .ramka-kreskowana, .ramka-podwojna */
+
+/* KROK 3: Ustawienia dla .ramka-akcent-lewy */

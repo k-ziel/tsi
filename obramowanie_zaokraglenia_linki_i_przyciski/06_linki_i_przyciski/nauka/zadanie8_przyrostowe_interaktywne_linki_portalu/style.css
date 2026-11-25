@@ -1,0 +1,22 @@
+/* Zadanie 8 Capstone: IT-Partner */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 2px solid #e2e8f0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* TODO: Zaimplementuj stany odnośników nawigacji oraz przycisków #btn-oblicz i #btn-wyslij */

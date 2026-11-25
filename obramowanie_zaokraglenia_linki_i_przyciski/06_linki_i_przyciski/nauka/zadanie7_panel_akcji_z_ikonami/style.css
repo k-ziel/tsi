@@ -1,0 +1,14 @@
+/* Zadanie 7: Panel narzędziowy */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  margin: 30px;
+}
+.panel-glowny {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 700px;
+}
+/* TODO: Zaimplementuj .btn-narzedzie oraz wariant .btn-usun */
